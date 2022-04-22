@@ -1,3 +1,3 @@
 # Currency Converter Application
 
-This is a currency converter web application built using React, SaSS, Tailwind and the fixer.io API
+This is a currency converter web application built using React, Tailwind CSS and the fixer.io API

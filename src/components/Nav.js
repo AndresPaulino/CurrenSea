@@ -1,12 +1,11 @@
 import React from 'react';
-import { Menu } from '@headlessui/react';
 import NavButton from './NavButton';
 
 function Header() {
   return (
-    <header className='nav__container flex items-center justify-between flex-wrap bg-gray-800 p-6'>
+    <header className='nav__container flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full'>
       <div className='nav__title flex items-center flex-shrink-0 text-white mr-6'>
-        <span className='nav__title-text font-semibold text-xl tracking-tight mr-4'>Current Sea</span>
+        <span className='nav__title-text font-semibold tracking-tight mr-4 font-whisper text-[2rem]'>currentSea</span>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           class='h-6 w-6'
